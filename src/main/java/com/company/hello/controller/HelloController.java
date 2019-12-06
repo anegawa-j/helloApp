@@ -12,4 +12,9 @@ public class HelloController {
 	public String hello() {
 		return "Hello Spring MVC";
 	}
+
+	@RequestMapping(value= "/sayYes", method = RequestMethod.GET)
+	public String sayYes() {
+		return "Say Yes";
+	}
 }
