@@ -15,6 +15,6 @@ public class HelloController {
 
 	@RequestMapping(value= "/sayYes", method = RequestMethod.GET)
 	public String sayYes() {
-		return "Say Yes";
+		return "Say Yes!";
 	}
 }
